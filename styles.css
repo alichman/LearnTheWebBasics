@@ -13,7 +13,7 @@ p{
     color: #333;
     max-width: 300px;
     line-height: 1.5;
-
+    text-align: center;
 }
 
 .navbar {
@@ -30,23 +30,45 @@ p{
     font-size: 18px;
     text-decoration: none;
     color: black;
+    background-color:#b0e1ff;
 }
 
 
 .title {
     /*Step 8: Style .title class*/
+    text-align: center;
+    font-size: 30px;
 
 }
 
 .jokeAPI-background{
     /*Step 10: Change Background Color to rgba(218, 248, 255, 255)*/
+    background-color: rgb(218, 248, 255);
 }
 
 .container {
     /*Step 12: Style .container class */
-}       
+    height: 100%;
+    width: 30%;
+    padding: 5rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+    background-color: #b0e1ff;
+}   
 
-button {
-    /*Step 14: Style button class */
+.button:hover{
+    background-color:rgb(139, 181, 248)
 }
 
+.button {
+    /*Step 14: Style button class */
+    background-color: rgb(66, 133, 244);
+    padding: 1rem;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
